@@ -1,0 +1,8 @@
+<h1>Personal Message</h1>
+<div class="personal_message_wrapper">
+<span class="personal_message_username"><%= @message.username%></span>
+<span class="personal_message_content"><%= @message.content%></span>
+<span class="personal_message_app_id"><%= @message.app_id%></span>
+<abbr class="personal_message_created_time message_created_time" title="<%= @message.created_at %>"><%= @message.created_at%></abbr>
+<span class="personal_message_back_root">back</span>
+</div>

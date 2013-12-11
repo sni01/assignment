@@ -1,0 +1,16 @@
+<h1>Messages center</h1>
+
+
+<ul class="messages_content">
+    <% @messages.each do |message| %>
+      <li>
+	    <div class="message_item">
+		   <span class="message_username"><%= message.username %></span>
+		   <span class="message_content"><%= message.content %></span>
+		   <span class="message_id"><%= message.id %></span>
+		   <span class="message_app_id"><%= message.app_id %></span>
+		   <abbr class="message_created_time" title="<%= message.created_at %>"><%= message.created_at %></abbr>
+		</div>
+      </li>
+    <% end %>
+</ul>

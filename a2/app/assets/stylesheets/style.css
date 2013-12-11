@@ -1,0 +1,86 @@
+h1{
+  font-size:60px;
+  color:grey;
+  text-align:center;
+}
+span.message_id,span.message_id{
+  height:20px;
+  width:200px;
+  float:right;
+  position:relative;
+  bottom:40px;
+    background-color:#01DF74;
+}
+.messages_content{
+  list-style-type: none;
+}
+.message_item{
+  height:160px;
+  width:1000px;
+  border:2px solid;
+  border-radius:25px;
+  background-color:#01DF74;
+  margin-bottom:20px;
+}
+.message_username{
+  position:relative;
+  top:10px;
+  left:10px;
+}
+.message_content{
+  position:relative;
+  top:10px;
+  left:50px;
+}
+.message_id{
+  position:relative;
+  top:140px;
+  left:850px;
+}
+.message_app_id{
+  position:relative;
+  top:140px;
+  left:850px;
+}
+.message_created_time{
+  position:relative;
+  top:140px;
+  left:700px;
+}
+.personal_message_wrapper{
+  width:1000px;
+  height:160px;
+  background-color:#01DF74;
+  border:2px solid;
+  border-radius:25px;
+}
+.personal_message_username{
+  position:relative;
+  top:10px;
+  left:10px;
+}
+.personal_message_content{
+  position:relative;
+  top:10px;
+  left:50px;
+}
+.personal_message_username{
+  position:relative;
+  top:10px;
+  left:10px;
+}
+.personal_message_created_time{
+  position:relative;
+  top:140px;
+  left:700px;
+}
+.personal_message_app_id{
+  position:relative;
+  top:140px;
+  left:850px;
+}
+.personal_message_back_root{
+  position:relative;
+  top:10px;
+  left:700px;
+}

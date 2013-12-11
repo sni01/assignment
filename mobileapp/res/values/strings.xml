@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">messagehub_application</string>
+    <string name="app_name_2">message center</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">username</string>
+    <string name="username_hint">username</string>
+    <string name="message">message</string>
+    <string name="message_hint">message</string>
+    <string name="submit">Submit</string>
+    <string name="messages">messages center</string>
+    <string name="back">Back</string>
+
+</resources>
